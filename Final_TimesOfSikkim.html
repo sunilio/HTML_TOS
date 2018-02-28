@@ -1,0 +1,203 @@
+<html>
+<head>
+ <title>Times of Sikkim | Dashboard</title>
+ <style type="text/css">
+  
+	.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 7px 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	}
+	
+	.dropdown {
+    display: inline-block;
+	}
+	
+	.dropdown-content {
+    display: none;
+    background-color: white;
+	position: absolute;
+	}
+	
+	.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	}
+
+	.dropdown-content a:hover {background-color:grey}
+
+	.dropdown:hover 
+	.dropdown-content {
+		display: block;
+	}
+  
+  @keyframes blink
+  {
+	from{opacity:1;}
+	to{opacity:0;}
+  }
+  
+  .slide { text-align:left; width:100%; hight:0px; padding-bottom:50%;  position:relative; }
+  .slide img{max-height:100%; max-width:100%; position:absolute; animation:slide 21s infinite; opacity:0; width: 100%; height: auto;}
+
+	@keyframes slide 
+	{
+		10%{opacity:1;} 
+		40%{opacity:0;}
+	}
+	.slide img:nth-child(1){animation-delay:0s;}
+	.slide img:nth-child(2){animation-delay:7s;}
+	.slide img:nth-child(3){animation-delay:14s;}
+  
+
+  
+</style>
+  
+    <hr size="1" color="black">	
+	<div style="text-shadow: 0px 2px 3px white; width: 99.5%; background-size:100% 100%; background-image: url('headBgImage.jpg');" >
+		</br>
+		<div   align="center" >
+		<p>
+			<font style="font-size:70px"><b>TIMES OF SIKKIM</b></font>
+		<p></br>
+			<font color="white" style="font-size:30px;
+			text-shadow: 0px -2px 3px yellow;
+			background-color: black;
+			animation-duration:0.5s;
+			animation-name: blink;
+			animation-iteration-count:infinite;
+			animation-direction: alternate;"><b>NOTHING BUT THE TRUTH</b></font>
+		</div>
+		
+		</br></br>
+	
+		<hr size="1" color="white">
+		
+		<table align="center" width=100%>
+		<tr>
+			<th align="center" width="33.33%">
+				<div>
+					<font size="4" color="white" style="text-shadow: 0px -1px 2px black;">Saturday, 16th Feb, 2018</font>
+				</div>
+			</th>
+	
+			<th align="center" width="33.33%">	
+			</th>
+	
+			<th align="center" width="33.33%">
+				<div>
+					<font size="4" color="white" style="text-shadow: 0px -1px 2px black;">Edition: Gangtok</font>
+				</div>
+			</th>	
+		</tr>
+		</table>
+		<hr size="1" color="black">	  
+	</div>
+</head>
+<body bgcolor="blue">	
+<div align="center">
+	<div class="dropdown">
+		<button class="dropbtn"><b>In the News</b></button>
+			<div class="dropdown-content">
+				<a href="sample.html">Link 1 In the News</a>
+				<a href="#">Link 2 In the News</a>
+				<a href="#">Link 3 In the News</a>
+			</div>
+	</div>
+	&nbsp; &nbsp; &nbsp;
+	<div class="dropdown">
+		<button class="dropbtn"><b>Crime</b></button>
+			<div class="dropdown-content">
+				<a href="#">Link 1 Crime</a>
+				<a href="#">Link 2 Crime</a>
+				<a href="#">Link 3 Crime</a>
+			</div>
+	</div>
+	&nbsp; &nbsp; &nbsp;
+	<div class="dropdown">
+		<button class="dropbtn"><b>Entertainment</b></button>
+			<div class="dropdown-content">
+				<a href="#">Link 1 Entertainment</a>
+				<a href="#">Link 2 Entertainment</a>
+				<a href="#">Link 3 Entertainment</a>
+			</div>
+	</div>
+	&nbsp; &nbsp; &nbsp;
+	<div class="dropdown">
+		<button class="dropbtn"><b>Politics</b></button>
+			<div class="dropdown-content">
+				<a href="#">Link 1 Politics</a>
+				<a href="#">Link 2 Politics</a>
+				<a href="#">Link 3 Politics</a>
+			</div>
+	</div>
+	&nbsp; &nbsp; &nbsp;
+	<div class="dropdown">
+		<button class="dropbtn"><b>Business</b></button>
+			<div class="dropdown-content">
+				<a href="#">Link 1 Business</a>
+				<a href="#">Link 2 Business</a>
+				<a href="#">Link 3 Business</a>
+			</div>
+	</div>
+	&nbsp; &nbsp; &nbsp;
+	<div class="dropdown">
+		<button class="dropbtn"><b>Sports</b></button>
+			<div class="dropdown-content">
+				<a href="#">Link 1 Sports</a>
+				<a href="#">Link 2 Sports</a>
+				<a href="#">Link 3 Sports</a>
+			</div>
+	</div>
+</div>
+	<hr size="1" color="black">
+	
+	
+<table width="100%">	
+	<tr>
+		<th width="55%" style="background-color: white;">
+			<font color="black"><b>Video Player</b></font>
+			<br><br>
+			<video controls >
+			<source src="VideoFile.mp4" type="video/mp4">
+			</video>
+		</th>
+
+		<th>
+			<div style="background-color: green;">
+					<br>
+					<font color="white"><b>Audio Player</b></font>
+					<br><br>
+					<audio controls>
+					<source src="Sinduli Gadi.mp3" type="audio/mp3">
+					</audio>
+					<br><br>
+			</div>		
+			<br>
+			<div class="slide">
+				<img src="logo.png" alt="Slide 3" />
+				<img src="flower.jpg" alt="Slide 2" />
+				<img src="park.jpg" alt="Slide 1" />
+			</div>			
+		</th>
+	</tr>
+</table>	
+
+
+	<br>
+	<div style="background-size:100% 100%;
+	background-image: url('footerBgImage.jpg');
+    left: 0;
+    bottom: 0;">
+	<a href="#" style="color:white; text-shadow: 0px -1px 2px black;">About Us</a>
+	&nbsp; &nbsp; &nbsp;
+	<a href="#" style="color:white; text-shadow: 0px -1px 2px black;">Contact Us</a>
+	</div>
+	
+</body>
+</html>
